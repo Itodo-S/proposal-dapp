@@ -222,6 +222,8 @@ export const useMulticallAllProposals = () => {
     readOnlyProposalContract,
     // handleCreatedProposalEvent,
     // handleVotedProposalEvent,
+    createdProposalEventHandler,
+    votedProposalEventHandler,
   ]);
 
   return allProposals;
