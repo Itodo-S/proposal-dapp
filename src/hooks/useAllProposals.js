@@ -220,8 +220,8 @@ export const useMulticallAllProposals = () => {
     };
   }, [
     readOnlyProposalContract,
-    handleCreatedProposalEvent,
-    handleVotedProposalEvent,
+    // handleCreatedProposalEvent,
+    // handleVotedProposalEvent,
   ]);
 
   return allProposals;
